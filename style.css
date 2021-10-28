@@ -953,6 +953,7 @@ footer .fot-end-text:hover {
   main header nav.active {
     left: 0;
     opacity: 1;
+    z-index: 100;
   }
   main header .but-cont {
     padding: 2px;
