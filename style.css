@@ -25,13 +25,36 @@ main {
   background-size: cover;
   min-height: 100vh;
   filter: brightness(130%);
-  background-attachment: local;
 }
 main header {
   padding: 70px 30px;
   display: flex;
   justify-content: space-around;
   align-content: center;
+}
+main header nav {
+  display: flex;
+  align-items: center;
+}
+main header .lang {
+  color: #fff;
+}
+main header .lang .link {
+  opacity: 0.3;
+}
+main header .lang .link.active {
+  opacity: 1;
+}
+main header .lang .link:hover {
+  opacity: 1;
+}
+main header .lang .link.active::after {
+  content: '';
+  display: block;
+  height: 2px;
+  background: white;
+  width: 100%;
+  transition: width 0.3s;
 }
 main header span {
   font-family: Poppins;
@@ -70,7 +93,7 @@ main header .link:hover::after {
   transition: width 0.3s;
 }
 main header .link-item {
-  padding: 15px 40px;
+  padding: 7px 40px;
   border: 1px solid #5338be;
   border-radius: 28.5px;
   margin-left: 36px;
@@ -80,7 +103,7 @@ main header .link-item {
   font-weight: 500;
   color: #ffffff;
   text-decoration: none;
-  transition: 0.5s;
+  transition: 0.5s background-color;
 }
 main header .link-item:hover {
   color: #ffffff;
@@ -985,7 +1008,11 @@ footer .fot-end-text:hover {
     left: 0;
     opacity: 1;
   }
-  main header .mobile-button {
+  main header .but-cont {
+    padding: 2px;
+  }
+  main header .mobile-button,
+  main header .flux {
     display: inline-block;
     width: 34px;
     height: 31px;
@@ -998,9 +1025,27 @@ footer .fot-end-text:hover {
     position: fixed;
     right: 30px;
   }
-  main header .mobile-button.active {
+  main header .mobile-button.active,
+  main header .flux.active {
     background-image: url(https://arber.ua/images/exit-but.png);
     filter: invert(1);
+  }
+  main header .mobile-button::after,
+  main header .flux::after {
+    content: "";
+    background-color: #000;
+  }
+  main header .flux {
+    background-color: red;
+    width: 44px;
+    height: 43px;
+    background-image: none;
+    z-index: 0;
+    right: 25.3px;
+    animation-name: backgroundColorPalette;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
   }
   main header.active nav {
     left: 0;
@@ -1436,5 +1481,22 @@ footer .fot-end-text:hover {
   footer .fot-end-text {
     margin: 0px;
     font-size: 18px;
+  }
+}
+@keyframes backgroundColorPalette {
+  0% {
+    background: #ee6055;
+  }
+  25% {
+    background: #2327ff;
+  }
+  50% {
+    background: #6a00ff;
+  }
+  75% {
+    background: #c57a00;
+  }
+  100% {
+    background: #000000;
   }
 }

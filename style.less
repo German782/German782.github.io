@@ -27,10 +27,8 @@ main {
     background-image: url(./images/bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: local;
     min-height: 100vh;
     filter: brightness(130%);
-    background-attachment: local;
 
 
 
@@ -39,7 +37,31 @@ main {
         display: flex;
         justify-content: space-around;
         align-content: center;
-
+        
+        nav {
+            display: flex;
+            align-items: center;
+        }
+        .lang {
+            color: #fff;
+            .link {
+                opacity: 0.3;
+                &.active {
+                    opacity: 1;
+                }
+                &:hover {
+                    opacity: 1;
+                }
+            }
+            .link.active::after {
+                content: '';
+                display: block;
+                height: 2px;
+                background: white;
+                width: 100%;
+                transition: width .3s;
+            }
+        }
         span {
             font-family: Poppins;
             font-size: 30px;
@@ -80,7 +102,7 @@ main {
         }
 
         .link-item {
-            padding: 15px 40px;
+            padding: 7px 40px;
             border: 1px solid #5338be;
             border-radius: 28.5px;
             margin-left: 36px;
@@ -90,7 +112,7 @@ main {
             font-weight: 500;
             color: #ffffff;
             text-decoration: none;
-            transition: .5s;
+            transition: .5s background-color;
 
             &:hover {
                 color: #ffffff;
@@ -1180,7 +1202,10 @@ footer {
                     opacity: 1;
                 }
             }
-            .mobile-button {
+            .but-cont {
+                padding: 2px;
+            }
+            .mobile-button, .flux {
                 display: inline-block;
                 width: 34px;
                 height: 31px;
@@ -1196,6 +1221,24 @@ footer {
                     background-image: url(https://arber.ua/images/exit-but.png);
                     filter: invert(1);
                 }
+                &::after {
+                    content: "";
+                    background-color: #000;
+                    
+
+                }
+            }
+            .flux {
+                background-color: red;
+                width: 44px;
+                height: 43px;
+                background-image: none;
+                z-index: 0;
+                right: 25.3px;
+                animation-name: backgroundColorPalette;
+                animation-duration: 10s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
             }
             &.active {
                 nav {
@@ -1753,3 +1796,22 @@ footer {
         }
     }
 }
+
+
+@keyframes backgroundColorPalette {
+    0% {
+      background: #ee6055;
+    }
+    25% {
+      background: #2327ff;
+    }
+    50% {
+      background: #6a00ff;
+    }
+    75% {
+      background: #c57a00;
+    }
+    100% {
+      background: #000000;
+    }
+  }
