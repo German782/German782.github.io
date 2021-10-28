@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 a {
   text-decoration: none;
@@ -57,7 +58,6 @@ main header .lang .link.active::after {
   transition: width 0.3s;
 }
 main header span {
-  font-family: Poppins;
   font-size: 30px;
   line-height: 44px;
   font-weight: 700;
@@ -65,7 +65,6 @@ main header span {
 }
 main header .main-link {
   text-decoration: none;
-  font-family: Poppins;
   line-height: 44px;
   font-weight: 700;
   color: #ffffff;
@@ -73,7 +72,6 @@ main header .main-link {
 main header .link {
   display: inline-block;
   margin: 0px 15px;
-  font-family: Poppins;
   font-size: 16px;
   line-height: 44px;
   font-weight: 500;
@@ -97,7 +95,6 @@ main header .link-item {
   border: 1px solid #5338be;
   border-radius: 28.5px;
   margin-left: 36px;
-  font-family: Poppins;
   font-size: 16px;
   line-height: 44px;
   font-weight: 500;
@@ -122,7 +119,6 @@ main .promo .main-img .img-pic-main {
   top: -26px;
 }
 main .promo .promo-container span {
-  font-family: Poppins;
   font-size: 56px;
   line-height: 44px;
   font-weight: 700;
@@ -139,7 +135,6 @@ main .promo .promo-container .bord .promo-text {
   border-radius: 16px;
   border: 1px solid #d5dee1;
   display: inline;
-  font-family: Poppins;
   font-size: 16px;
   line-height: 44px;
   font-weight: 400;
@@ -149,7 +144,6 @@ main .promo .promo-container .bord .promo-text {
 }
 main .promo .promo-container .promo-title {
   margin-top: 15px;
-  font-family: Poppins;
   font-size: 59px;
   line-height: 66px;
   font-weight: 700;
@@ -157,7 +151,6 @@ main .promo .promo-container .promo-title {
 }
 main .promo .promo-container .promo-text-about {
   margin: 69px 0;
-  font-family: Poppins;
   font-size: 18px;
   font-weight: 700;
   color: #5338be;
@@ -167,7 +160,6 @@ main .promo .promo-container .promo-buttons {
   padding: 15px 11px;
   border: 1px solid transparent;
   border-radius: 28.5px;
-  font-family: Poppins;
   font-size: 16px;
   line-height: 44px;
   font-weight: 500;
@@ -184,7 +176,6 @@ main .promo .promo-container .promo-buttons:hover {
   padding-top: 30px;
   margin-bottom: 30px;
   text-align: center;
-  font-family: Poppins;
   font-size: 16px;
   line-height: 28px;
   font-weight: 600;
@@ -216,7 +207,6 @@ main .promo .promo-container .promo-buttons:hover {
   display: none;
 }
 .category-of-companies .container-smart .container-items .smart-title {
-  font-family: Poppins;
   font-size: 36px;
   line-height: 46px;
   font-weight: 600;
@@ -225,7 +215,6 @@ main .promo .promo-container .promo-buttons:hover {
 .category-of-companies .container-smart .container-items .smart-text {
   margin-top: 10px;
   margin-bottom: 65px;
-  font-family: Poppins;
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
@@ -233,7 +222,7 @@ main .promo .promo-container .promo-buttons:hover {
 }
 .category-of-companies .container-smart .flex-zone {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 .category-of-companies .container-smart .flex-zone .connector {
@@ -258,14 +247,12 @@ main .promo .promo-container .promo-buttons:hover {
 }
 .category-of-companies .container-smart .flex-zone .connector .subtitle-cards {
   display: inline;
-  font-family: Poppins;
   font-size: 20px;
   line-height: 58px;
   font-weight: 600;
   color: #f55767;
 }
 .category-of-companies .container-smart .flex-zone .connector .cards-text {
-  font-family: Poppins;
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
@@ -285,7 +272,6 @@ main .promo .promo-container .promo-buttons:hover {
 }
 .category-of-companies .smart-jackpots .title-jackpot {
   margin-right: 70px;
-  font-family: Poppins;
   font-size: 40px;
   line-height: 50px;
   font-weight: 600;
@@ -296,7 +282,6 @@ main .promo .promo-container .promo-buttons:hover {
 }
 .category-of-companies .smart-jackpots .text-jackpot {
   margin-left: 90px;
-  font-family: Poppins;
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
@@ -334,7 +319,6 @@ main .promo .promo-container .promo-buttons:hover {
 }
 .category-of-companies .jackpot-cards .jakcpot-all-cards .jack-cont .jack-title {
   display: inline;
-  font-family: Poppins;
   font-size: 20px;
   line-height: 58px;
   font-weight: 600;
@@ -348,7 +332,6 @@ main .promo .promo-container .promo-buttons:hover {
 }
 .category-of-companies .jackpot-cards .jakcpot-all-cards .jack-cont .jack-text {
   display: inline;
-  font-family: Poppins;
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
@@ -369,14 +352,12 @@ main .promo .promo-container .promo-buttons:hover {
 }
 .category-of-companies .integration .design-int .int-tittle {
   margin-bottom: 15px;
-  font-family: Poppins;
   font-size: 36px;
   line-height: 46px;
   font-weight: 600;
   color: #242f51;
 }
 .category-of-companies .integration .design-int .int-text {
-  font-family: Poppins;
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
@@ -384,7 +365,6 @@ main .promo .promo-container .promo-buttons:hover {
   margin-bottom: 50px;
 }
 .category-of-companies .integration .design-int .learn-button {
-  font-family: Poppins;
   font-size: 16px;
   line-height: 44px;
   font-weight: 700;
@@ -403,7 +383,6 @@ main .promo .promo-container .promo-buttons:hover {
 .choose-app .subtitle-choose {
   padding-top: 70px;
   margin-bottom: 30px;
-  font-family: Poppins;
   text-align: center;
   font-size: 36px;
   line-height: 46px;
@@ -412,7 +391,6 @@ main .promo .promo-container .promo-buttons:hover {
 }
 .choose-app .text-choose {
   margin-bottom: 70px;
-  font-family: Poppins;
   text-align: center;
   font-size: 16px;
   line-height: 26px;
@@ -426,10 +404,10 @@ main .promo .promo-container .promo-buttons:hover {
   flex-wrap: wrap;
 }
 .choose-app .enumeration-all-cards .enumeration-cards {
-  margin: 50px 40px;
+  margin: 50px 10px;
+  text-align: center;
 }
 .choose-app .enumeration-all-cards .enumeration-cards .enumeration-bg {
-  margin: 0px 86px;
   padding: 35px 43px;
   display: inline;
   position: relative;
@@ -445,7 +423,6 @@ main .promo .promo-container .promo-buttons:hover {
 .choose-app .enumeration-all-cards .enumeration-cards .enumeration-all-text .enumeration-subtitle {
   text-align: center;
   margin-top: 40px;
-  font-family: Poppins;
   font-size: 20px;
   line-height: 58px;
   font-weight: 600;
@@ -453,7 +430,6 @@ main .promo .promo-container .promo-buttons:hover {
 }
 .choose-app .enumeration-all-cards .enumeration-cards .enumeration-all-text .enumeration-text {
   text-align: center;
-  font-family: Poppins;
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
@@ -502,7 +478,6 @@ main .promo .promo-container .promo-buttons:hover {
   top: 14%;
 }
 .choose-app .cards-features .flex-all-features .title-of-features {
-  font-family: Poppins;
   font-size: 36px;
   line-height: 46px;
   font-weight: 600;
@@ -511,7 +486,6 @@ main .promo .promo-container .promo-buttons:hover {
 .choose-app .cards-features .flex-all-features .text-features {
   margin-top: 13px;
   margin-bottom: 100px;
-  font-family: Poppins;
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
@@ -546,7 +520,6 @@ main .promo .promo-container .promo-buttons:hover {
 .choose-app .cards-features .flex-all-features .flex-first-road .enumeration-cards .enumeration-all-text .enumeration-subtitle {
   text-align: left;
   margin-top: 40px;
-  font-family: Poppins;
   font-size: 20px;
   line-height: 58px;
   font-weight: 600;
@@ -556,7 +529,6 @@ main .promo .promo-container .promo-buttons:hover {
   margin-right: 87px;
   margin-bottom: 100px;
   text-align: left;
-  font-family: Poppins;
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
@@ -566,7 +538,6 @@ main .promo .promo-container .promo-buttons:hover {
   margin-bottom: 55px;
   margin-right: 87px;
   text-align: left;
-  font-family: Poppins;
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
@@ -577,7 +548,6 @@ main .promo .promo-container .promo-buttons:hover {
 }
 .choose-app .cards-features .see-all .see-all-button {
   margin-bottom: 10px;
-  font-family: Poppins;
   font-size: 16px;
   line-height: 44px;
   font-weight: 700;
@@ -591,7 +561,6 @@ main .promo .promo-container .promo-buttons:hover {
   margin-top: 150px;
   margin-bottom: 20px;
   text-align: center;
-  font-family: Poppins;
   font-size: 36px;
   line-height: 46px;
   font-weight: 600;
@@ -599,7 +568,6 @@ main .promo .promo-container .promo-buttons:hover {
 }
 .choose-app .payment .payment-text {
   text-align: center;
-  font-family: Poppins;
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
@@ -626,14 +594,12 @@ main .promo .promo-container .promo-buttons:hover {
 }
 .choose-app .payment .price-card .two-price-cards .check-list .bg-main .money {
   text-align: center;
-  font-family: Poppins;
   font-size: 18px;
   line-height: 28px;
   font-weight: 400;
   color: #999ca5;
 }
 .choose-app .payment .price-card .two-price-cards .check-list .bg-main .money span {
-  font-family: Poppins;
   font-size: 60px;
   line-height: 58px;
   font-weight: 600;
@@ -642,14 +608,12 @@ main .promo .promo-container .promo-buttons:hover {
 .choose-app .payment .price-card .two-price-cards .check-list .bg-main .tittle-list {
   margin-top: 15px;
   text-align: center;
-  font-family: Poppins;
   font-size: 20px;
   line-height: 28px;
   font-weight: 600;
   color: #242f51;
 }
 .choose-app .payment .price-card .two-price-cards .check-list .bg-main .subtitle-list {
-  font-family: Poppins;
   font-size: 16px;
   line-height: 28px;
   font-weight: 400;
@@ -658,7 +622,6 @@ main .promo .promo-container .promo-buttons:hover {
 .choose-app .payment .price-card .two-price-cards .priorety {
   margin-top: 25px;
   text-align: center;
-  font-family: Poppins;
   font-size: 16px;
   line-height: 48px;
   font-weight: 400;
@@ -674,7 +637,6 @@ main .promo .promo-container .promo-buttons:hover {
 }
 .choose-app .payment .price-card .two-price-cards .priorety .start {
   margin-bottom: 20px;
-  font-family: Poppins;
   font-size: 16px;
   line-height: 28px;
   font-weight: 500;
@@ -736,7 +698,6 @@ main .promo .promo-container .promo-buttons:hover {
 .clients .container-describe .title-of-desc {
   margin-top: 114px;
   margin-bottom: 20px;
-  font-family: Poppins;
   font-size: 40px;
   line-height: 50px;
   font-weight: 600;
@@ -744,7 +705,6 @@ main .promo .promo-container .promo-buttons:hover {
 }
 .clients .container-describe .text-descr {
   margin-bottom: 20px;
-  font-family: Poppins;
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
@@ -752,7 +712,6 @@ main .promo .promo-container .promo-buttons:hover {
 }
 .clients .container-describe .subtitle-of-desc {
   margin-bottom: 10px;
-  font-family: Poppins;
   font-size: 20px;
   line-height: 58px;
   font-weight: 600;
@@ -760,7 +719,6 @@ main .promo .promo-container .promo-buttons:hover {
 }
 .clients .container-describe .main-text-desc {
   margin-bottom: 55px;
-  font-family: Poppins;
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
@@ -775,14 +733,12 @@ main .promo .promo-container .promo-buttons:hover {
 }
 .clients .container-describe .profiles .name-of-man {
   display: inline;
-  font-family: Poppins;
   font-size: 18px;
   line-height: 58px;
   font-weight: 600;
   color: #242f51;
 }
 .clients .container-describe .profiles .text-work {
-  font-family: Poppins;
   font-size: 18px;
   line-height: 28px;
   font-weight: 400;
@@ -794,7 +750,6 @@ main .promo .promo-container .promo-buttons:hover {
 .js-fuck-nigga .animation {
   padding-top: 170px;
   text-align: center;
-  font-family: Poppins;
   font-size: 40px;
   line-height: 58px;
   font-weight: 600;
@@ -804,7 +759,6 @@ main .promo .promo-container .promo-buttons:hover {
   margin-top: 15px;
   margin-bottom: 65px;
   text-align: center;
-  font-family: Poppins;
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
@@ -818,7 +772,6 @@ main .promo .promo-container .promo-buttons:hover {
   border: none;
   text-align: left;
   outline: none;
-  font-family: Poppins;
   font-size: 20px;
   line-height: 26px;
   font-weight: 600;
@@ -851,7 +804,6 @@ main .promo .promo-container .promo-buttons:hover {
   transition: 0.4s;
 }
 .js-fuck-nigga .panel p {
-  font-family: Poppins;
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
@@ -876,7 +828,6 @@ main .promo .promo-container .promo-buttons:hover {
 .download-app .download .app {
   margin-top: 200px;
   margin-bottom: 25px;
-  font-family: Poppins;
   font-size: 48px;
   line-height: 58px;
   font-weight: 600;
@@ -884,7 +835,6 @@ main .promo .promo-container .promo-buttons:hover {
 }
 .download-app .download .text-app {
   margin-bottom: 45px;
-  font-family: Poppins;
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
@@ -910,7 +860,6 @@ footer .applab-center {
   margin-bottom: 35px;
 }
 footer .applab-center span {
-  font-family: Poppins;
   font-size: 30px;
   line-height: 44px;
   font-weight: 700;
@@ -918,7 +867,6 @@ footer .applab-center span {
 }
 footer .applab-center .main-link {
   text-decoration: none;
-  font-family: Poppins;
   font-size: 30px;
   line-height: 44px;
   font-weight: 700;
@@ -931,7 +879,6 @@ footer .navig-block .link {
   position: relative;
   margin: 0px 15px;
   margin-top: 10px;
-  font-family: Poppins;
   font-size: 16px;
   line-height: 44px;
   font-weight: 500;
@@ -965,7 +912,6 @@ footer .fot-end-text {
   margin-right: 40px;
   margin-top: 50px;
   opacity: 0.21;
-  font-family: Poppins;
   font-size: 14px;
   line-height: 44px;
   font-weight: 400;
@@ -1024,6 +970,7 @@ footer .fot-end-text:hover {
     z-index: 12;
     position: fixed;
     right: 30px;
+    z-index: 101;
   }
   main header .mobile-button.active,
   main header .flux.active {
@@ -1046,6 +993,7 @@ footer .fot-end-text:hover {
     animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    z-index: 100;
   }
   main header.active nav {
     left: 0;
@@ -1209,7 +1157,7 @@ footer .fot-end-text:hover {
     display: none;
   }
   .category-of-companies .integration .design-int .learn-button {
-    padding: 4px 20px;
+    padding: 4px 0px;
     display: block;
     text-align: center;
     margin: 0 auto;
@@ -1260,11 +1208,13 @@ footer .fot-end-text:hover {
     left: 0%;
     top: -9%;
     width: 90vw;
+    opacity: 45.3%;
   }
   .choose-app .cards-features .flex-all-features .flex-img-big .iphone-pos-second {
     position: absolute;
     left: 0%;
     width: 90vw;
+    opacity: 45.3%;
   }
   .choose-app .cards-features .flex-all-features .title-of-features {
     text-align: center;
